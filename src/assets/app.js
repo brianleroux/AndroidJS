@@ -1,7 +1,6 @@
-imports('console');
-imports('notification');
-
 function onCreate(bundle) {
-	console.log('awwww yeah')
-	notification.toast("Welcome to AndroidJS!");
+	console.log('awwww yeah');
+	
+	require('androidjs/notification').toast("Welcome to AndroidJS!");
+	require('androidjs/dialogue').alert('hello?');
 }

@@ -1,15 +1,23 @@
 AndroidJS
 ===
-Author native and hybrid applications for the Android operating system with pure JavaScript. AndroidJS a light abstraction layer on to pof the crazy awesome DroidScript project by Mikael Kindborg. 
+Author native and hybrid applications for the Android operating system with pure JavaScript. AndroidJS a web tech abstraction orgy on top of Android enabled by the crazy awesome DroidScript project by Mikael Kindborg. 
 
 Features
 ---
+- CommonJS Modules 1.1 implementation. 
 - Native Android API wrappers to make things more natural to JavaScript. (And less Java!)
-- Nearly complete access to the entire Android SDK and Dalvik Java stack.
-- CommonJS compliant Modules implementation. 
-- ES5 compatible JavaScript interpreter based on the Mozilla Rhino engine.
+- Near complete access to the entire Android SDK and Java stack from JavaScript.
+- ES5 compatible JavaScript interpreter by way of the Mozilla Rhino engine.
+
+Examples in `./src/assets/examples`. Check out the API docs in `./doc`. 
+
+Current Work
+---
+- PhoneGap enabled WebView
+- Build scripts
+- CoffeeScript support by way of http://github.com/yeungda/jcoffeescript
+- CouchDB as ContentProvider
 - Some NodeJS interface mappings. More to come. JavaScript services anyone?
-- Examples in `./src/assets/examples` including a nascent PhoneGap/Android writ in 100% JS.
 
 Prerequisites
 ---
@@ -17,14 +25,19 @@ Prerequisites
 
 Install
 ---
-Simply add the androidjs project to your `PATH`.
+Simply add  `./androidjs/bin` to your `PATH`.
+	
+	export PATH=$PATH:~/androidjs/bin
 	
 Terminal Quickstart 
 ---
 	git clone
-	android update -p .
-	ant
+	android update project -p .
 	ant debug install && adb logcat
+	
+Eclipse Quickstart
+---
+	
 
 Project Layout
 ---
@@ -53,7 +66,7 @@ Get to know AndroidJS!
 Credits
 ---
 - Mikael Kindborg (@divineprog) for creating the amazing DroidScript library from which AndroidJS is based.
-- Creators of Rhino from which DroidScript is based and .
+- The creators and maintainers of the Rhino interpreter.
 - Peter Svensson for bringing together a more eclectic side of the Android community at Android Only. 
 
 
