@@ -5,6 +5,14 @@ var include = function(id) {
     Activity.evalAssetFile(id + '.js');
 }
 
+// evaluates a JavaScript file as an Activity
+var activity = function(scriptPath) {
+	var intent = new Packages.android.content.Intent();
+    intent.setClassName(Activity, "comikit.droidscript.DroidScriptActivity");
+	intent.putExtra("ScriptName", scriptPath + '.js');
+    Activity.startActivity(intent);
+}
+
 // start the bootstrapping the bare minimum
 include('androidjs/console');
 // -------------------------------------------------------------- //
