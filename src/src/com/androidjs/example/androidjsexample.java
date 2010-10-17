@@ -11,7 +11,7 @@ public class androidjsexample extends DroidScriptActivity
     public void onCreate(Bundle savedInstanceState)
     {
 		Intent intent = getIntent();
-		intent.putExtra("ScriptAsset", "android.js");
+		intent.putExtra("ScriptAsset", "androidjs/android.js");
 		super.onCreate(savedInstanceState);
     }
 }
