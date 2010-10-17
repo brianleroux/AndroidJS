@@ -2,3 +2,4 @@ bin
 local.properties
 build.properties
 androidjs.jar
+.DS_Store
