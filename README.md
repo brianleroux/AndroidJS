@@ -21,8 +21,14 @@ AndroidJS Features
 
 Examples in `./src/assets/examples`. Check out the API docs in `./doc`. 
 
-Current Work
+Current Work / Ideas
 ---
+- notifications
+- create either activitiy or service style projects
+- intents
+- more gui wrappers
+- canvas api on top of android.graphics
+- opengl webgl api binding
 - PhoneGap enabled WebView
 - Build scripts
 - CoffeeScript support by way of http://github.com/yeungda/jcoffeescript
@@ -56,21 +62,12 @@ Get to know AndroidJS!
 	androidjs
 	|- bin 
 	|  |- androidjs .............. androidjs [create|update|help]
-	|  |- create ................. Create an AndroidJS project.
-	|  '- update ................. Update project: libs/js.jar, libs/droidscript.jar and assets/android.js
+	|  '- cli.js ................. Create an AndroidJS project.
 	|- doc 
 	|- LICENSE
 	|- README.md 
 	'- src 
         |- AndroidManifest.xml ... set paths, targets, permissions
-        |- assets ................ Static assets. 
-        |  |- app.js ............. Starting point for an example AndroidJS project. 
-		|  |- test.js ............ Tests for android.js file.
-		|  |- android.js ......... Native wrappers.
-		|  |- examples
-		|  |  |- couchdb.js ...... Using AndroidJS with CouchDB (locally or not)
-		|  |  |- tweets.js ....... A trivial twitter client example. 
-		|  |  '- phonegap.js ..... A baseline PhoneGap/Android implementation in pure JS. 
 		
 
 Credits
