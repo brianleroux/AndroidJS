@@ -2,12 +2,22 @@ AndroidJS
 ===
 Author native and hybrid applications for the Android operating system with pure JavaScript. AndroidJS a web tech abstraction orgy on top of Android enabled by the crazy awesome DroidScript project by Mikael Kindborg. 
 
-Features
+Rhino Features
 ---
 - CommonJS Modules 1.1 implementation. 
+- ES5 compliant JavaScript interpreter.
+
+DroidScript Features
+---
+- Near complete access to the entire Android SDK and then entire underlying Java stack _from JavaScript_.
+- Clean binding of Rhino to the Android lifecycle.
+- Helpers for evaluating JavaScript from various sources.
+
+AndroidJS Features
+---
 - Native Android API wrappers to make things more natural to JavaScript. (And less Java!)
-- Near complete access to the entire Android SDK and Java stack from JavaScript.
-- ES5 compatible JavaScript interpreter by way of the Mozilla Rhino engine.
+- Awesome examples for creating native controls, capturing touch input, creating web servers and webviews.
+- 
 
 Examples in `./src/assets/examples`. Check out the API docs in `./doc`. 
 
