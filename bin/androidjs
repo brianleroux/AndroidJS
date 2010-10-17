@@ -1,0 +1,3 @@
+#!/bin/sh
+
+java -jar ./../src/libs/js.jar ./cli.js "$@" 

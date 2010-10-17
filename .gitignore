@@ -1,4 +1,5 @@
-bin
+src/bin
+src/gen
 local.properties
 build.properties
 androidjs.jar
